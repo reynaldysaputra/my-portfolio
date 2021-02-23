@@ -2,6 +2,12 @@
    width: 8rem;
 }
 
+.nav {
+   width: 100%;
+   position: fixed;
+   z-index: 2;
+}
+
 .navBrand {
    width: 17.25;
    padding: 10px;

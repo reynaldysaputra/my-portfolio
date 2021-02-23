@@ -1,0 +1,46 @@
+.logo {
+   width: 8rem;
+}
+
+.navBrand {
+   width: 17.25;
+   padding: 10px;
+}
+
+.iconMenu {
+   color : var(--primary-white);
+   font-size: 1.5625rem;
+}
+
+.navlink {
+   color: var(--primary-white) !important; 
+   text-transform: uppercase;
+   border-top: 0.1875rem solid #343B40;
+   margin-right: 1rem;
+}
+
+.navlink.active, .navlink:focus {
+   border-top: 0.1875rem solid var(--border-nav);
+}
+
+.navlink:hover {
+   border-top: 0.1875rem solid var(--border-nav);
+}
+
+@media only screen and (max-width : 768px) {
+   .logo {
+      width: 7rem !important;
+   }
+
+   .navlink {
+      border: 0px;
+   }
+
+   .navlink.active, .navlink:focus {
+      border : 0px;
+   }
+
+   .navlink:hover{
+      border : 0px;
+   }
+}

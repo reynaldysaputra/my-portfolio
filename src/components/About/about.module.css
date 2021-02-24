@@ -1,0 +1,47 @@
+.aboutContainer {
+   width: 100%;
+   margin: 0px;
+   margin-top: 7vh;
+   justify-content: center;
+}
+
+.me {
+   width: 50%;
+   border-radius: 50%;
+   border: 2px solid var(--border-nav);
+   padding: 5px;
+}
+
+.containerBox2 {
+   display: flex;
+   align-items: center;
+}
+
+.titleAbout {
+   text-transform: uppercase;
+   color: var(--border-nav);
+}
+
+@media only screen and (max-width : 768px) {
+   .me {
+      width: 65%;
+   }
+
+   .containerBox2 {
+      width: 100%;
+      margin-top: 3vh;
+      justify-content: center;
+   }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+   .me {
+      width: 55%;
+   }
+}
+
+@media only screen and (max-width : 1024px) and (orientation : landscape) {
+   .me {
+      width: 60%;
+   }
+}

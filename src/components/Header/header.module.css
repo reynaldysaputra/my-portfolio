@@ -78,7 +78,17 @@
       padding: 10px;
    }
 
+   .headerInfo{
+      margin-top: 5vh;
+   }
+
    .headerInfo h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
+   }
+}
+
+@media only screen and (max-width : 1024px) and (orientation : landscape) {
+   .headerInfo h1 {
+      font-size: 2.3rem;
    }
 }

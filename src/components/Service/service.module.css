@@ -1,0 +1,36 @@
+.serviceContainer {
+   width: 100%;
+   padding: 50px;
+   background-color: #eaeaea;
+   margin: 0px;
+   margin-top: 7vh;
+}
+
+.boxService {
+   max-height: 300px;
+   background-color: white;
+   text-align: center;
+   padding: 10px;
+   border-bottom: 5px solid var(--border-nav);
+   margin-top: 10%;
+}
+
+.iconBox {
+   cursor: pointer;
+   background-color: var(--border-nav) !important;
+   padding: 20px;
+   display: inline-flex;
+   border-radius: 50%;
+   color: white;
+   font-size: 20px;
+}
+
+.boxService h3 {
+   margin-top: 5%;
+}
+
+@media only screen and (max-width : 768px) { 
+   .serviceContainer {
+      padding: 30px;
+   }  
+}

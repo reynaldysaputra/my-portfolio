@@ -10,8 +10,8 @@ function Headers(){
             <h1>web development and website promotions</h1>
             <Typed
                className={style.typedText}
-               strings={['Web Design','Web Development','Google Ads']}
-               typeSpeed={60}
+               strings={['Web Design','Web Development','Facebook Ads','Google Ads']}
+               typeSpeed={70}
                backSpeed={30}
                loop
             />

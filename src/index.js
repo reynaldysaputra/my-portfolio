@@ -4,9 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
 import Navbars from './components/Navbar/Navbar';
 import Headers from './components/Header/Header';
-import Layout from './components/Layout/Layout';
 import AboutMe from './components/About/About';
 import Services from './components/Service/Service';
+import Timeline from './components/Timeline/Timeline';
+import Portfolio from './components/Portfolio/Portfolio';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,8 @@ ReactDOM.render(
     <Headers/>
     <AboutMe/>
     <Services/>
+    <Timeline/>
+    <Portfolio/>
   </React.StrictMode>,
   document.getElementById('root')
 );

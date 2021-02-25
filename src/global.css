@@ -3,6 +3,7 @@
 :root { 
    --primary-white : rgb(243, 243, 243);
    --border-nav : orange;
+   --secondary-color : rgb(255, 47, 47);
 }
 
 body {

@@ -1,0 +1,26 @@
+.containerPortfolio {
+   background-color: #f0f0f0;
+}
+
+.containerPortfolioItem {
+   margin-top: 7vh;
+}
+
+.itemPortfolio {
+   border: 2px solid var(--border-nav);
+}
+
+.textContainer {
+   height: 23vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--border-nav);
+}
+
+.imgThumb {
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+}
+

@@ -15,7 +15,7 @@ function Services(){
                </Col>
             </Row>
             <Row className='justify-content-center'>
-               <Col md={4} lg={3}>
+               <Col md={6} lg={3}>
                   <div className={style.boxService}>
                      <div className={style.iconBox}>
                         <FontAwesomeIcon icon={faDesktop} />
@@ -25,7 +25,7 @@ function Services(){
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae?</p>
                   </div>
                </Col>
-               <Col md={4} lg={3}>
+               <Col md={6} lg={3}>
                   <div className={style.boxService}>
                      <div className={style.iconBox}>
                         <FontAwesomeIcon icon={faFileCode}/>
@@ -34,7 +34,7 @@ function Services(){
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae?</p>
                   </div>
                </Col>
-               <Col md={4} lg={3}>
+               <Col md={6} lg={3}>
                   <div className={style.boxService}>
                      <div className={style.iconBox}>
                         <FontAwesomeIcon icon={faCompressAlt}/>
@@ -43,7 +43,7 @@ function Services(){
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, vitae?</p>
                   </div>
                </Col>
-               <Col md={4} lg={3}>
+               <Col md={6} lg={3}>
                   <div className={style.boxService}>
                      <div className={style.iconBox}>
                         <FontAwesomeIcon icon={faObjectGroup}/>

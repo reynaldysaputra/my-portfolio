@@ -1,18 +1,24 @@
 .serviceContainer {
    width: 100%;
    padding: 50px;
-   background-color: #eaeaea;
+   background-color: #ebebeb;
    margin: 0px;
    margin-top: 7vh;
 }
 
 .boxService {
    max-height: 300px;
-   background-color: white;
+   background-color: #FFFEFF;
    text-align: center;
    padding: 10px;
    border-bottom: 5px solid var(--border-nav);
    margin-top: 10%;
+   transition: .5s;
+}
+
+.boxService:hover {
+   background-color: var(--border-nav);
+   border-bottom: 5px solid #333;
 }
 
 .iconBox {
@@ -23,6 +29,20 @@
    border-radius: 50%;
    color: white;
    font-size: 20px;
+   transition: .5s;
+}
+
+.boxService p{
+   transition: .2s;
+}
+
+.boxService:hover > .iconBox{
+   background-color: white !important;
+   color: #333;
+}
+
+.boxService:hover > p{
+   color: white;
 }
 
 .boxService h3 {

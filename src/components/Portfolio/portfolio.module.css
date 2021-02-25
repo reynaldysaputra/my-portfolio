@@ -4,6 +4,7 @@
 
 .containerPortfolioItem {
    margin-top: 7vh;
+   padding: 0 0 10vh 0;
 }
 
 .itemPortfolio {
@@ -24,3 +25,49 @@
    cursor: pointer;
 }
 
+main { 
+   padding: 10px 0px;
+}
+
+main .header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+   padding : 0px 20px;
+   border-bottom: 1.5px solid #333;
+}
+
+main .header .closeModal{
+   font-size: 1.5rem;
+   color: #b6b6b6;
+   cursor: pointer;
+}
+
+.body {
+   margin-top: 5vh;
+   padding: 0px 20px;
+}
+
+.body img {
+   width: 80%;
+}
+
+.body h4 {
+   font-size: 1.2rem;
+   font-weight: 300;
+}
+
+.body strong {
+   font-weight: bold !important;
+   font-family: sans-serif;
+}
+
+@media only screen and (max-width : 1024px) { 
+   .itemPortfolio {
+      margin-bottom: 5%;
+   }
+
+   .textContainer h2 {
+      font-size: 2.5rem;
+   }
+}

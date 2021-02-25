@@ -2,26 +2,34 @@ import React, {useState} from 'react';
 import { Col, Image } from 'react-bootstrap';
 import style from './portfolio.module.css';
 import img1 from '../../assets/img/1.png';
-import { Modal } from 'react-responsive-modal';
+import Popup from 'reactjs-popup';
 
-function ItemPortfolio(){
-   const [open, setOpen] = useState(false);
+function ItemPortfolio(props){
+   const {imgModal, header ,link, text} = props.data.data;
 
-   const onOpenModal = () => setOpen(true);
-   const onCloseModal = () => setOpen(false);
+   console.log(imgModal);
 
    return(
-      <Col xs md={4} lg={3}>
+      <Col xs={12} lg={3} className='mb-md-4'>
          <div className={style.itemPortfolio}>
-            <Image src={img1} className={style.imgThumb} onClick={onOpenModal} />
-            <Modal open={open} onClose={onCloseModal} center>
-               <h2>Simple centered modal</h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                  pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-                  hendrerit risus, sed porttitor quam.
-               </p>
-            </Modal>
+            <Popup
+               trigger={<Image src={imgModal} className={style.imgThumb} />}
+               modal
+            >
+               {close => (
+                  <main>
+                     <section className={style.header}>
+                        <h3>{header}</h3>
+                        <div className={style.closeModal} onClick={close}>X</div>
+                     </section>
+                     <section className={style.body}>
+                        <Image src={imgModal} />
+                        <h4>{text}</h4>
+                        <strong>GitHub : <a href="#">{link}</a></strong>
+                     </section>
+                  </main>
+               )}               
+            </Popup>
          </div>
       </Col>
    )

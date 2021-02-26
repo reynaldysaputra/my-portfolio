@@ -4,6 +4,7 @@ import { resourcePorfolio } from '../../assets/resource/portfolio';
 import Layout from '../Layout/Layout';
 import ItemPortfolio from './ItemPortfolio';
 import style from './portfolio.module.css';
+import './modalModif.css';
 
 function Portfolio(){
    return(

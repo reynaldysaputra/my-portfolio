@@ -7,8 +7,6 @@ import Popup from 'reactjs-popup';
 function ItemPortfolio(props){
    const {imgModal, header ,link, text} = props.data.data;
 
-   console.log(imgModal);
-
    return(
       <Col xs={12} lg={3} className='mb-md-4'>
          <div className={style.itemPortfolio}>

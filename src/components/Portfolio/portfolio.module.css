@@ -70,4 +70,8 @@ main .header .closeModal{
    .textContainer h2 {
       font-size: 2.5rem;
    }
+
+   strong a {
+      word-break : break-all;
+   }
 }

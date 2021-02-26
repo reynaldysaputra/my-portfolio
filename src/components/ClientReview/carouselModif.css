@@ -1,0 +1,38 @@
+.thumbs-wrapper,
+.legend,
+.carousel-status {
+   display: none;
+}
+
+.carousel-root {
+   height: 100% !important;
+}
+
+.carousel, .carousel-slider {
+   height: 100%;
+   display: block !important;
+}
+
+.carousel {
+   display: none !important;
+}
+
+.carousel-slider {
+   display: block !important;
+}
+
+.slider {
+   background: transparent;
+}
+
+.carousel .slide {
+   background: transparent !important;
+   padding-bottom: 30px;
+}
+
+.slider-wrapper {
+   display: flex;
+   align-items: center;
+   height: 100%;
+   background: transparent;
+}

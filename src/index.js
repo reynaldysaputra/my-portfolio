@@ -8,6 +8,8 @@ import AboutMe from './components/About/About';
 import Services from './components/Service/Service';
 import Timeline from './components/Timeline/Timeline';
 import Portfolio from './components/Portfolio/Portfolio';
+import Review from './components/ClientReview/Review';
+import Contact from './components/Contact/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +19,8 @@ ReactDOM.render(
     <Services/>
     <Timeline/>
     <Portfolio/>
+    <Review/>
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );

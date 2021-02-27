@@ -10,6 +10,7 @@ import Timeline from './components/Timeline/Timeline';
 import Portfolio from './components/Portfolio/Portfolio';
 import Review from './components/ClientReview/Review';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
     <Portfolio/>
     <Review/>
     <Contact/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -6,7 +6,7 @@ import style from './timeline.module.css';
 function Timeline(){
    return(
       <Layout>
-         <Row className={style.timelineContainer}>
+         <Row className={style.timelineContainer} id='work'>
             <div className={style.line}></div>
             <Col className={style.timelineItemOdd} xs={12}>
                <div className={style.timelineOdd}>

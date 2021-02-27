@@ -29,7 +29,7 @@ function Contact(){
    return(
       <div className={style.containerContact}>
          <Layout>
-            <Row>
+            <Row id='contact'>
                <Col xs={12} className={style.containerText}>
                   <h2>CONTACT ME</h2>
                   <span>Please fill out the form and describe you project needs and I'll contact you as soon as possible.</span>

@@ -10,7 +10,7 @@ function Review(){
          <h2>MY HAPPY CLIENTS</h2>
          <div className={style.boxContainer}>
             <div className={style.boxReview}>
-               <Carousel autoPlay infiniteLoop>
+               <Carousel autoPlay infiniteLoop  emulateTouch>
                   <div className={style.review}>
                      <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg'/>
                      <h3>Jane Doe</h3>

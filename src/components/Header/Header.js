@@ -2,10 +2,11 @@ import React from 'react';
 import style from './header.module.css';
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';
+import { Link } from 'react-scroll';
 
 function Headers(){
    return(
-      <div className={style.header}>
+      <div className={style.header} id='home'>
          <div className={style.headerInfo}>
             <h1>web development and website promotions</h1>
             <Typed
@@ -16,7 +17,7 @@ function Headers(){
                loop
             />
             <div className={style.containerContact}>
-               <a href="#" className={style.btnContact}>Contact me</a>
+               <Link to='contact' offset={-140} smooth='easeInOutCubic' className={style.btnContact}>Contact me</Link>
             </div>
          </div>
 

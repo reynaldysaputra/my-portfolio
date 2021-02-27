@@ -124,4 +124,9 @@
    .button {
       margin-top: 7%;
    }
+
+   .containerText p{
+      margin-top: 5%;
+      margin-bottom: 0;
+   }
 }

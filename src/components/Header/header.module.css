@@ -55,6 +55,7 @@
    color: var(--primary-white);
    transition: .5s;
    text-transform: uppercase;
+   cursor: pointer;
 }
 
 .btnContact:hover {

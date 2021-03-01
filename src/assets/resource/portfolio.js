@@ -43,5 +43,85 @@ export const resourcePorfolio = [
          text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
          link : 'https://github.com/reynaldysaputra/renal-burger'
       }
+   },
+   {
+      id : 5,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 6,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 7,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 8,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 9,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 10,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 11,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
+   },
+   {
+      id : 12,
+      img : img4,
+      data : {
+         imgModal : img4,
+         header : 'Furniture',
+         text : 'In this portfolio, I created a furniture website. This website is a small e-commerce site that I developed myself using React js, Chakra-UI, React-router, Rest Api, and so on.',
+         link : 'https://github.com/reynaldysaputra/renal-burger'
+      }
    }
 ]

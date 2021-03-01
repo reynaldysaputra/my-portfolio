@@ -57,7 +57,7 @@ function Footer(){
                      </Col>
                      <Col xs={12}>
                         <div>
-                           <p>Copyright ©2020 All rights reserved</p>
+                           <p>Copyright ©2021 All rights reserved</p>
                         </div>
                      </Col>
                   </Row>

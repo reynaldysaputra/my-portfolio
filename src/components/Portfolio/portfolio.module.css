@@ -1,10 +1,13 @@
 .containerPortfolio {
    background-color: #f0f0f0;
+   min-height: 100vh;
+   margin-top: 7vh;
+   overflow: hidden;
 }
 
 .containerPortfolioItem {
-   margin-top: 7vh;
-   padding: 0 0 10vh 0;
+   max-height: 60vh;
+   overflow: scroll;
 }
 
 .itemPortfolio {
@@ -12,11 +15,13 @@
 }
 
 .textContainer {
-   height: 23vh;
+   height: auto;
    display: flex;
    justify-content: center;
    align-items: center;
    color: var(--border-nav);
+   padding: 2rem 0;
+   text-align: center;
 }
 
 .imgThumb {
@@ -37,6 +42,14 @@ main .header{
    border-bottom: 1.5px solid #333;
 }
 
+.containerText {
+   height: 20vh;
+}
+
+.header h3 {
+   font-weight: bold;
+}
+
 main .header .closeModal{
    font-size: 1.5rem;
    color: #b6b6b6;
@@ -49,7 +62,7 @@ main .header .closeModal{
 }
 
 .body img {
-   width: 80%;
+   width: 70%;
 }
 
 .body h4 {
@@ -62,7 +75,23 @@ main .header .closeModal{
    font-family: sans-serif;
 }
 
+.imgSkill {
+   width: 80px;
+   height: 80px;
+   border-radius: 4px;
+   object-fit: cover;
+   object-position: top;
+}
+
 @media only screen and (max-width : 1024px) { 
+   .containerPortfolio {
+      min-height: 50vh;
+   }
+
+   .containerText {
+      height: auto;
+   }
+
    .itemPortfolio {
       margin-bottom: 5%;
    }
@@ -73,5 +102,10 @@ main .header .closeModal{
 
    strong a {
       word-break : break-all;
+   }
+
+   .imgSkill {
+      width: 75px;
+      height: 75px;
    }
 }

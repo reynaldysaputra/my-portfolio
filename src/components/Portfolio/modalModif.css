@@ -2,9 +2,11 @@
    margin: auto;
    background: rgb(255, 255, 255);
    width: 55%;
+   max-height: 500px;
+   overflow: auto;
    padding: 5px 0px 20px 0px;
    transition: .5s;
-   -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+   animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
 }
 
 .popup-arrow {

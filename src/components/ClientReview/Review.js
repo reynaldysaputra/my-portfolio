@@ -12,17 +12,17 @@ function Review(){
             <div className={style.boxReview}>
                <Carousel autoPlay infiniteLoop  emulateTouch>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg'/>
+                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
                      <h3>Jane Doe</h3>
                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, consectetur. Possimus minus ipsam, similique voluptatem eligendi laudantium non odio quidem?</p>
                   </div>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg'/>
+                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
                      <h3>Truits</h3>
                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi enim inventore ipsum quos excepturi voluptatem.</p>
                   </div>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg'/>
+                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
                      <h3>Truits</h3>
                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi enim inventore ipsum quos excepturi voluptatem.</p>
                   </div>

@@ -49,8 +49,8 @@ function Portfolio(){
          <Row>
             <Col xs={12}>
                <div className={style.textContainer}>
-                  <Marquee key={1} velocity={25}>
-                     {times(9, Number).map(id => (
+                  <Marquee key={1} velocity={10}>
+                     {times(9, Number).map((id,index) => (
                         <img
                            src={photos[id]}
                            className={style.imgSkill}
@@ -58,6 +58,7 @@ function Portfolio(){
                            marginLeft: "7px",
                            marginRight: "80px",
                            }}
+                           key={index}
                         />
                      ))}
                   </Marquee>

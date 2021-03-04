@@ -17,10 +17,10 @@ function Navbars(){
                <FontAwesomeIcon icon={faBars} className={style.iconMenu}/>
             </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
-               <Nav>
+               <Nav className={style.navLinkContainer}>
                   <Link to='home' smooth='easeInOutCubic' className={style.navlink}>home</Link>
                   <Link to='aboutMe' smooth='easeInOutCubic' offset={-130} className={style.navlink}>about me</Link>
-                  <Link to='work' smooth='easeInOutCubic' offset={-130} className={style.navlink}>how work</Link>
+                  <Link to='work' smooth='easeInOutCubic' offset={-130} className={style.navlink}>EDUCATION</Link>
                   <Link to='portfolio' smooth='easeInOutCubic' offset={-100} className={style.navlink}>portfolio</Link>
                   <Link to='contact' offset={-140} smooth='easeInOutCubic' className={style.navlink}>contact</Link>
                </Nav>

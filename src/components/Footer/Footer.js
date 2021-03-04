@@ -2,10 +2,11 @@ import React from 'react';
 import Layout from '../Layout/Layout';
 import style from './footer.module.css';
 import { Row, Col, NavLink, Image } from 'react-bootstrap';
-import facebook from '../../assets/img/facebook.png';
+import upwork from '../../assets/img/upwork.png';
 import github from '../../assets/img/github.png';
 import instagram from '../../assets/img/insta.png';
 import linked from '../../assets/img/linked.png';
+import {Link} from 'react-scroll';
 
 function Footer(){
    return(
@@ -16,21 +17,20 @@ function Footer(){
                   <p>City Jakarta, Indonesia <br/> 089607266532 <br/> renalfrontend@gmail.com</p>
                </Col>
                <Col xs={6} md={2}>
-                  <NavLink href='#'>Home</NavLink>
-                  <NavLink href='#'>About Me</NavLink>
-                  <NavLink href='#'>Services</NavLink>
+                  <Link to='home' smooth='easeInOutCubic'>Home</Link>
+                  <Link to='aboutMe' smooth='easeInOutCubic' offset={-130}>About Me</Link>
+                  <Link to='work' smooth='easeInOutCubic' offset={-130}>Education</Link>
                </Col>
                <Col xs={6} md={2}>
-                  <NavLink href='#'>Experience</NavLink>
-                  <NavLink href='#'>Portfolio</NavLink>
-                  <NavLink href='#'>Contact</NavLink>
+                  <Link to='portfolio' smooth='easeInOutCubic' offset={-100}>Portfolio</Link>
+                  <Link to='contact' offset={-140} smooth='easeInOutCubic'>Contact</Link>
                </Col>
                <Col xs={12} md={4}>
                   <Row className={style.iconContainer}>
                      <Col xs={2} >
                         <div className={style.a}>
                            <NavLink>
-                              <Image src={facebook} />
+                              <Image src={upwork} />
                            </NavLink>
                         </div>
                      </Col>

@@ -13,6 +13,8 @@
 .footer a {
    color: #585858;
    padding: 3px;
+   display: block;
+   cursor: pointer;
 }
 
 .iconContainer {

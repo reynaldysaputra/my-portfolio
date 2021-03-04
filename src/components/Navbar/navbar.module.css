@@ -11,7 +11,7 @@
 
 .navBrand {
    width: 17.25;
-   padding: 10px;
+   padding: 0px;
 }
 
 .iconMenu {
@@ -38,11 +38,16 @@
 
 @media only screen and (max-width : 768px) {
    nav {
-      padding: 0px 10px !important;
+      padding: 5px 10px !important;
    }
 
    .logo {
       width: 3.5rem !important;
+   }
+
+   .navLinkContainer {
+      margin-top: 10px !important;
+      text-align: center;
    }
 
    .navlink {

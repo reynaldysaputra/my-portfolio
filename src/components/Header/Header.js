@@ -8,11 +8,11 @@ function Headers(){
    return(
       <div className={style.header} id='home'>
          <div className={style.headerInfo}>
-            <h1>web development and website promotions</h1>
+            <h1>front end development and web design</h1>
             <Typed
                className={style.typedText}
-               strings={['Web Design','Web Development','Facebook Ads','Google Ads']}
-               typeSpeed={70}
+               strings={['Hi','My Name Is','Reynaldy Saputra','I Am a','Front End Developer','And','Web Design']}
+               typeSpeed={100}
                backSpeed={30}
                loop
             />

@@ -12,6 +12,7 @@
 
 .itemPortfolio {
    border: 2px solid var(--border-nav);
+   position: relative;
 }
 
 .textContainer {
@@ -22,6 +23,45 @@
    color: var(--border-nav);
    padding: 2rem 0;
    text-align: center;
+}
+
+.modalImg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   z-index: 1;
+}
+
+.modalImg .bgTransparent {
+   width: 100%;
+   height: 100%;
+   background-color: var(--border-nav);
+   position: absolute;
+   z-index: 2;
+   opacity: 0;
+   transition: .5s;
+}
+
+.modalImg .iconSearch{
+   color: white;
+   z-index: 3;
+   font-size: 1.2rem;
+   opacity: 0;
+   transition: .5s;
+}
+
+.modalImg .bgTransparent:hover {
+   opacity: .5;
+}
+
+.modalImg .bgTransparent:hover ~ .iconSearch{
+   opacity: 1;
 }
 
 .imgThumb {
@@ -118,7 +158,7 @@ main .header .closeModal{
    }
 
    .imgSkill {
-      width: 75px;
-      height: 75px;
+      width: 50px;
+      height: 50px;
    }
 }

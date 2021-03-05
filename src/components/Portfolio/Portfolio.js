@@ -52,13 +52,14 @@ function Portfolio(){
                   <Marquee key={1} velocity={10}>
                      {times(9, Number).map((id,index) => (
                         <img
+                           key={index}
                            src={photos[id]}
                            className={style.imgSkill}
                            style={{ 
                            marginLeft: "7px",
                            marginRight: "80px",
                            }}
-                           key={index}
+                           alt={photos[id]}
                         />
                      ))}
                   </Marquee>

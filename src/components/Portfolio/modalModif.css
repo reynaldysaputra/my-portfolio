@@ -1,8 +1,8 @@
 .popup-content {
    margin: auto;
    background: rgb(255, 255, 255);
-   width: 55%;
-   max-height: 500px;
+   width: 60%;
+   max-height: 550px;
    overflow: auto;
    padding: 5px 0px 20px 0px;
    transition: .5s;

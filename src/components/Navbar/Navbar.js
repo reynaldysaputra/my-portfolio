@@ -21,7 +21,7 @@ function Navbars(){
                   <Link to='home' smooth='easeInOutCubic' className={style.navlink}>home</Link>
                   <Link to='aboutMe' smooth='easeInOutCubic' offset={-130} className={style.navlink}>about me</Link>
                   <Link to='work' smooth='easeInOutCubic' offset={-130} className={style.navlink}>EDUCATION</Link>
-                  <Link to='portfolio' smooth='easeInOutCubic' offset={-100} className={style.navlink}>portfolio</Link>
+                  <Link to='portfolio' smooth='easeInOutCubic' offset={-60} className={style.navlink}>portfolio</Link>
                   <Link to='contact' offset={-140} smooth='easeInOutCubic' className={style.navlink}>contact</Link>
                </Nav>
             </Navbar.Collapse>

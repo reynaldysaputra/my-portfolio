@@ -1,16 +1,24 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Col, Image } from 'react-bootstrap';
 import style from './portfolio.module.css';
 import Popup from 'reactjs-popup';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faSearch} from '@fortawesome/free-solid-svg-icons';
 
 function ItemPortfolio(props){
-   const {imgModal, header ,link, text} = props.data.data;
+   const {imgModal, header , link1 , link2 ,text} = props.data.data;
 
    return(
       <Col xs={12} lg={3} className='mb-md-4'>
          <div className={style.itemPortfolio}>
+            <Image src={props.data.img} className={style.imgThumb} />
             <Popup
-               trigger={<Image src={props.data.img} className={style.imgThumb} />}
+               trigger={
+                  <div className={style.modalImg}>
+                     <div className={style.bgTransparent}></div>
+                     <FontAwesomeIcon icon={faSearch} className={style.iconSearch}/>
+                  </div>
+               }
                modal
                lockScroll
             >
@@ -27,7 +35,8 @@ function ItemPortfolio(props){
                            </div>
                         ))}
                         <h4>{text}</h4>
-                        <strong>GitHub : {link}</strong>
+                        <strong>GitHub : <span style={{wordBreak:'break-all'}}>{link1}</span></strong>
+                        <strong>Website : {link2}</strong>
                      </section>
                   </main>
                )}               

@@ -29,28 +29,28 @@ function Footer(){
                   <Row className={style.iconContainer}>
                      <Col xs={2} >
                         <div className={style.a}>
-                           <NavLink>
+                           <NavLink href='https://www.upwork.com/freelancers/~014b322a4248039dce/' target='_blank'>
                               <Image src={upwork} />
                            </NavLink>
                         </div>
                      </Col>
                      <Col xs={2}>
                         <div className={style.a}>
-                           <NavLink>
+                           <NavLink href='https://github.com/reynaldysaputra' target='_blank'>
                               <Image src={github} style={{background:'white'}} />
                            </NavLink>
                         </div>
                      </Col>
                      <Col xs={2}>
                         <div className={style.a}>
-                           <NavLink>
+                           <NavLink href='https://www.instagram.com/reynaldysptr/' target='_blank'>
                               <Image src={instagram} />
                            </NavLink>
                         </div>
                      </Col>
                      <Col xs={2}>
                         <div className={style.a}>
-                           <NavLink>
+                           <NavLink href='https://www.linkedin.com/in/reynaldy-saputra-61330115a/' target='_blank'>
                               <Image src={linked} />
                            </NavLink>
                         </div>

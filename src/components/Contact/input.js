@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from './contact.module.css';
 
 function Input({type,placeholders,names,register,errors,errorText, ...props}){

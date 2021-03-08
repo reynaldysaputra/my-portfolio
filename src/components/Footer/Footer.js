@@ -23,7 +23,7 @@ function Footer(){
                </Col>
                <Col xs={6} md={2}>
                   <Link to='portfolio' smooth='easeInOutCubic' offset={-100}>Portfolio</Link>
-                  <Link to='contact' offset={-140} smooth='easeInOutCubic'>Contact</Link>
+                  <Link to='contact' offset={-100} smooth='easeInOutCubic'>Contact</Link>
                </Col>
                <Col xs={12} md={4}>
                   <Row className={style.iconContainer}>

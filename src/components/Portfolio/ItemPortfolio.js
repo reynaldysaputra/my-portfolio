@@ -9,7 +9,7 @@ function ItemPortfolio(props){
    const {imgModal, header , link1 , link2 ,text} = props.data.data;
 
    return(
-      <Col xs={12} lg={3} className='mb-md-4'>
+      <Col xs={11} lg={3} className='mb-md-4'>
          <div className={style.itemPortfolio}>
             <Image src={props.data.img} className={style.imgThumb} />
             <Popup

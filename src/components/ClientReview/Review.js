@@ -1,8 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import client1 from '../../assets/img/clien1.jpeg';
+import client2 from '../../assets/img/client2.jpg';
+import client3 from '../../assets/img/client3.jpg';
 import style from './review.module.css';
 import './carouselModif.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 function Review(){
    return(
@@ -12,19 +15,19 @@ function Review(){
             <div className={style.boxReview}>
                <Carousel autoPlay infiniteLoop  emulateTouch>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
-                     <h3>Jane Doe</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, consectetur. Possimus minus ipsam, similique voluptatem eligendi laudantium non odio quidem?</p>
+                     <img src={client1} alt='client'/>
+                     <h3>Padwad</h3>
+                     <p>Reynaldy is very good at creating a web interface. Very good job, I am very happy with this result. Good work!</p>
                   </div>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
+                     <img src={client2} alt='client'/>
                      <h3>Truits</h3>
-                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi enim inventore ipsum quos excepturi voluptatem.</p>
+                     <p>He set an example for me. I will analyze how to use it. And I will attach it to my project, he does his best. Thank you!</p>
                   </div>
                   <div className={style.review}>
-                     <img src='https://www.csircmc.res.in/sites/default/files/default_images/default_man_photo.jpg' alt='client'/>
-                     <h3>Truits</h3>
-                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi enim inventore ipsum quos excepturi voluptatem.</p>
+                     <img src={client3} alt='client'/>
+                     <h3>John D.</h3>
+                     <p>Reynaldy helped me solve website problems, he's a very thorough and creative person. Good work :)</p>
                   </div>
                </Carousel>
             </div>

@@ -8,7 +8,7 @@ function Headers(){
    return(
       <div className={style.header} id='home'>
          <div className={style.headerInfo}>
-            <h1>front end development and web design</h1>
+            <h1>front end developer and web design</h1>
             <Typed
                className={style.typedText}
                strings={['Hi','My Name Is','Reynaldy Saputra','I Am a','Front End Developer','And','Web Design']}
@@ -17,7 +17,7 @@ function Headers(){
                loop
             />
             <div className={style.containerContact}>
-               <Link to='contact' offset={-140} smooth='easeInOutCubic' className={style.btnContact}>Contact me</Link>
+               <Link to='contact' offset={-100} smooth='easeInOutCubic' className={style.btnContact}>Contact me</Link>
             </div>
          </div>
 

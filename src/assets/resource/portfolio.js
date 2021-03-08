@@ -18,13 +18,13 @@ import thumb4 from '../img/portfolio/04/thumb.png';
 import item41 from '../img/portfolio/04/1.png';
 import item42 from '../img/portfolio/04/2.png';
 import item43 from '../img/portfolio/04/3.png';
-import item44 from '../img/portfolio/04/3.png';
+import item44 from '../img/portfolio/04/4.png';
 
 import thumb5 from '../img/portfolio/05/thumb.png';
 import item51 from '../img/portfolio/05/1.png';
 import item52 from '../img/portfolio/05/2.png';
 import item53 from '../img/portfolio/05/3.png';
-import item54 from '../img/portfolio/05/3.png';
+import item54 from '../img/portfolio/05/4.png';
 
 import thumb6 from '../img/portfolio/06/thumb.png';
 import item61 from '../img/portfolio/06/1.png';
@@ -92,7 +92,7 @@ export const resourcePorfolio = [
       data : {
          imgModal : [item51,item52,item53,item54],
          header : 'Renal-Covid',
-         text : 'what you see here is the covid-19 website, why did I make a website like this? yes, as the name implies, I created this website to see and monitor how the development of Covid-19 in my country, Indonesia. and I made this using native HTML, CSS, Javascript, and also the covid-19 API. if you want to view and monitor this website please click the link below',
+         text : 'what you see here is the covid-19 website, why did I make a website like this? yes, as the name implies, I created this website to see and monitor how the development of Covid-19 in my country, Indonesia. and I made this using native HTML, CSS, Javascript, and also the covid-19 API.',
          link1 : 'https://github.com/reynaldysaputra/covid-app',
          link2 : '-'
       }
@@ -135,9 +135,9 @@ export const resourcePorfolio = [
       img : thumb9,
       data : {
          imgModal : [item91,item92,item93,item94],
-         header : 'Renal-Covid',
-         text : 'I changed my PSD design to HTML CSS, The website is responsive and looks great on phones and tablets.',
-         link1 : 'https://github.com/reynaldysaputra/jaisone-landing-page',
+         header : 'Landing Page',
+         text : 'This is a simple website landing page that I created, this is the result of my practice learning the web, and it is built using HTML, CSS.',
+         link1 : '-',
          link2 : '-'
       },
    },

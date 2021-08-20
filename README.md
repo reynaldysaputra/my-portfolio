@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## `MY PORTFOLIO : What project is this?`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of the My Portfolio project is to make my portfolio website, you can see many portfolios that I provide on this website.
 
-## Available Scripts
+In this project you can see information about me about my career as a Front End Developer.
 
-In the project directory, you can run:
+You can also send me a message on this portfolio via the contact form I have provided there.
 
-### `yarn start`
+You can see my portfolio website here: https://renalfrontdev.web.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project uses:
+- REACT JS
+- BOOSTRAP
+- REACT BOOSTRAP
+- PARTICLE JS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## `View From My Portfolio Website`
+![Screen Shot 2021-08-20 at 14 57 53](https://user-images.githubusercontent.com/43536639/130201327-5e7a957f-06c1-46d6-afea-097e6f9e5040.png)
+![Screen Shot 2021-08-20 at 14 58 00](https://user-images.githubusercontent.com/43536639/130201366-a266eff4-426f-4d06-ad41-61156c7893b1.png)
+![Screen Shot 2021-08-20 at 14 58 08](https://user-images.githubusercontent.com/43536639/130201388-4250368a-dae6-4924-bbed-a7111f47d3c0.png)
+![Screen Shot 2021-08-20 at 14 58 35](https://user-images.githubusercontent.com/43536639/130201397-62bcd417-68d9-4416-bcb1-079d7ba5acce.png)
+![Screen Shot 2021-08-20 at 14 58 42](https://user-images.githubusercontent.com/43536639/130201402-6c8090e8-f63f-4bb9-98bf-9ba9c2acdb81.png)
+![Screen Shot 2021-08-20 at 14 58 52](https://user-images.githubusercontent.com/43536639/130201417-f7478e5e-79c6-4af6-9b1f-2b77d8cd5432.png)
